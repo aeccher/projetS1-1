@@ -1,0 +1,22 @@
+:root {
+
+    /* Color styles */
+--beige: rgba(255, 243, 204, 1);
+--noir: rgba(51, 51, 50, 1);
+--orange: rgba(255, 167, 0, 1);
+--blanc: rgba(255, 255, 255, 1);
+--violet: rgba(201, 87, 165, 1);
+
+/* Text-size styles */
+--menu: 34px;
+--titre_du_site: 60px;
+--patuaone40: 40px;
+--texte: 18px;
+--legende: 14px;
+--patuaone30: 30px;
+--patuaone28: 28px;
+--citation: 26px;
+--texte_italic: 18px;
+--patuaone26: 26px;
+
+}

@@ -1,0 +1,22 @@
+/* Code fourni par Google Font pour l'utilisation de ces polices de caractères */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/*Vendors*/
+@import url('vendors/normalize.css');
+
+/*Variables*/
+@import url('utils/variables.css');
+
+/*Base*/
+@import url('base/main.css');
+@import url('base/media.css');
+
+/* Layout */
+@import url('layout/header.css');
+@import url('layout/footer.css');
+
+/* components */
+@import url('components/menu.css');
+@import url('components/card.css');
+@import url('components/carrousel.css');
+
