@@ -1,0 +1,12 @@
+<svg id="icône_film" data-name="icône film" xmlns="http://www.w3.org/2000/svg" width="53.762" height="47.251" viewBox="0 0 53.762 47.251">
+  <path id="Tracé_2" data-name="Tracé 2" d="M0,118.351H53.762V90H0ZM19.006,94.725a1.574,1.574,0,0,1,2.519-1.26l12.6,9.45a1.573,1.573,0,0,1,0,2.519l-12.6,9.45a1.564,1.564,0,0,1-.944.315,1.574,1.574,0,0,1-1.575-1.575Zm0,0" transform="translate(0 -80.55)" fill="#333"/>
+  <path id="Tracé_3" data-name="Tracé 3" d="M271,390h9.45v6.3H271Zm0,0" transform="translate(-242.544 -349.049)" fill="#333"/>
+  <path id="Tracé_4" data-name="Tracé 4" d="M151,390h9.45v6.3H151Zm0,0" transform="translate(-135.145 -349.049)" fill="#333"/>
+  <path id="Tracé_5" data-name="Tracé 5" d="M398.98,0H391V6.3h12.705V4.725A4.731,4.731,0,0,0,398.98,0Zm0,0" transform="translate(-349.944)" fill="#333"/>
+  <path id="Tracé_6" data-name="Tracé 6" d="M211,165v12.6l8.4-6.3Zm0,0" transform="translate(-188.844 -147.674)" fill="#333"/>
+  <path id="Tracé_7" data-name="Tracé 7" d="M151,0h9.45V6.3H151Zm0,0" transform="translate(-135.145)" fill="#333"/>
+  <path id="Tracé_8" data-name="Tracé 8" d="M0,391.575A4.731,4.731,0,0,0,4.725,396.3h7.98V390H0Zm0,0" transform="translate(0 -349.049)" fill="#333"/>
+  <path id="Tracé_9" data-name="Tracé 9" d="M271,0h9.45V6.3H271Zm0,0" transform="translate(-242.544)" fill="#333"/>
+  <path id="Tracé_10" data-name="Tracé 10" d="M391,396.3h7.98a4.731,4.731,0,0,0,4.725-4.725V390H391Zm0,0" transform="translate(-349.944 -349.049)" fill="#333"/>
+  <path id="Tracé_11" data-name="Tracé 11" d="M12.705,0H4.725A4.731,4.731,0,0,0,0,4.725V6.3H12.705Zm0,0" fill="#333"/>
+</svg>
