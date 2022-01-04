@@ -1,5 +1,6 @@
 .footer {
     text-align: center;
+    background-color: var(--beige);
 }
 
 .footer hr { 

@@ -1,0 +1,62 @@
+body {
+    font-family: var(--font-K2D);
+    font-size: var(--texte);
+}
+
+h1 {
+    font-family: var(--font-K2D);
+    font-size: var(--titre_du_site);
+}
+
+h2 {
+    font-family: var(--font-PatuaOne);
+    font-size: var(--patuaone40);
+}
+
+
+/* permet de redecendre le contenu de la page en dessous du header */
+main{
+    padding-top: 100px;
+  } 
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.contenant {
+    position: relative;
+  }
+  
+  .texte_contenant {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -30px;
+  }
+
+  .texte_contenant2 {
+    margin-top: -30px;
+    margin-left: 30px;
+  }
+  
+  .img_contenant {
+      height : 400px
+  }
+
+  .icone_fleche {
+    margin-left: 150px;
+    position: absolute;
+  }
+
+  .background_noir {
+      background-color: var(--noir);
+  }
+
+  .texte_beige {
+      color:var(--beige)
+  }
+
+  .texte_orange {
+      color:var(--orange)
+  }

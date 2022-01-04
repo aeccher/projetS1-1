@@ -38,15 +38,13 @@
   /* MENU */ 
   
   .menu {
-    background-color: var(--noir);
+    background-color: var(--beige);
     position: fixed;
     top: 0;
     left: 0; 
-    bottom: 0;
-    right: 0;
+   width: 100vw;
+   height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
     transform: translateX(100vw);
     transition: all 1s;
     z-index: 1;
@@ -70,17 +68,15 @@
     margin: 0;
     padding: 0;
     font-size: 1rem; 
-    text-transform: uppercase;
-    text-align: center;
-    font-family: var(--h-e-a-d-e-r-2);
+    font-family: var(--menu);
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 60px;
   }
   
   .menu a { 
-    color: var(--blanc);
+    color: var(--noir);
     text-decoration:none;
-    font-family: var(--font-bebas-neue);
-    font-size: var(--h-e-a-d-e-r-2);
+    font-family: var(--font-PatuaOne);
+    font-size: var(--menu);
   }
