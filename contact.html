@@ -27,31 +27,36 @@
         <span class="menu-btn__bar"></span>
       </button>
 
-
 <!-- Menu principal -->
 <nav class="header__menu menu">
-<ul class= "menu__list">
-  <li class="menu__item">
-    <a class="menu__link" href="index.html">Accueil</a>
-  </li>
-  <li class="menu__item">
-    <a class="menu__link" href="article1.html">Les jeux de la survie</a>
-  </li>
-  <li class="menu__item">
-    <a class="menu__link" href="article2.html">Un puissant gouvernement</a>
-  </li>
-  <li class="menu__item">
-    <a class="menu__link" href="article3.html">Le séjour au Capitole</a>
-  </li>
-   <li class="menu__item">
-    <a class="menu__link" href="autres_projets.html">Autres projets</a>
-  </li>
-  <li class="menu__item">
-    <a class="menu__link" href="contact.html">Contact</a>
-  </li>
-</ul>
-</nav>
-<!-- Fin du menu principal -->
+  <ul class= "menu__list">
+    <li class="menu__item">
+      <img src="public/img/icone_accueil.svg" alt="Icône accueil">
+      <a class="menu__link" href="index.html">Accueil</a>
+    </li>
+    <li class="menu__item">
+      <img src="public/img/icone_livre.svg" alt="Icône livre">
+      <a class="menu__link" href="article1.html">Les jeux de la survie</a>
+    </li>
+    <li class="menu__item">
+      <img src="public/img/icone_element.svg" alt="Icône mégaphone">
+      <a class="menu__link" href="article2.html">Un puissant gouvernement</a>
+    </li>
+    <li class="menu__item">
+      <img src="public/img/icone_film.svg" alt="Icône film">
+      <a class="menu__link" href="article3.html">Le séjour au Capitole</a>
+    </li>
+     <li class="menu__item">
+      <img src="public/img/icone_plus.svg" alt="Icône plus">
+      <a class="menu__link" href="autres_projets.html">Autres projets</a>
+    </li>
+    <li class="menu__item">
+      <img src="public/img/icone_contact.svg" alt="Icône personne">
+      <a class="menu__link" href="contact.html">Contact</a>
+    </li>
+  </ul>
+  </nav>
+  <!-- Fin du menu principal -->
 </header>
 <!-- Fin de l'en-tête de page -->
 
@@ -63,16 +68,16 @@
     <form method="get">
 
       <label for ="Name">Nom</label><br>
-      <input type="text" required id= "facultatif"><br>
+      <input type="text" required id= "name"><br>
 
       <label for ="Email">E-mail</label><br>
-      <input type="email" required id= "obligatoire"  id="email" name="email" value=""><br>
+      <input type="email"  id="email" name="email" value=""><br>
       
       <label for ="Subject">Sujet</label><br>
-      <input type="text" required id= "facultatif"><br>
+      <input type="text" required id= "sujet"><br>
 
       <label for ="Message">Message</label><br>
-      <textarea id="obligatoire" name="Message" required cols="100" rows="20"></textarea><br>
+      <textarea id="message" name="Message" required cols="100" rows="20"></textarea><br>
       
       <input type="submit" value="Envoyer" style="height:36px; width:86px">
     </form>
