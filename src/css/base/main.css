@@ -122,3 +122,14 @@ img {
 	position: relative;
 	overflow: hidden;
 }
+
+input[type=submit]{
+  background-color: var(--orange);
+  margin-left: 200px;
+  border:none;
+}
+
+.main__formulaire {
+  background-color: var(--noir);
+  color: var(--beige);
+}
