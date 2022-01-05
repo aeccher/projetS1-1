@@ -41,16 +41,19 @@ img {
   }
   
   .img_contenant {
-      height : 400px
+    margin-top: -20px;
+    height : 400px
   }
 
   .icone_fleche {
     margin-left: 150px;
     position: absolute;
+    margin-top: -30px;
   }
 
   .background_noir {
       background-color: var(--noir);
+      margin-top: -20px;
   }
 
   .texte_beige {
@@ -60,3 +63,62 @@ img {
   .texte_orange {
       color:var(--orange)
   }
+
+  #rectangle {
+    width:300px;
+    height:100px;
+    background: var(--beige);
+    border-radius: 20px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.items_rectangle {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 40px;
+}
+
+.items_rectangle h3 {
+  margin-top: -40px;
+  margin-left: 45px;
+}
+
+.legende {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	line-height: 5em;
+	top: 0;
+	display: none;
+}	
+
+
+.image img{
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+.visionneuse {
+	grid-column: 2;
+	grid-row: 2;
+	width: 100px;
+	height: 100px;
+	padding: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.carrousel {
+	grid-column: 2;
+	grid-row: 2;
+	width: 540px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+}

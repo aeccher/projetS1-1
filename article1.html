@@ -8,6 +8,10 @@
 
         <!-- Déclaration de la feuille de style -->
         <link rel="stylesheet" href="src/css/style.css">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+		<script src="src/js/fonctions.js"></script>
         
 </head>
 <body>
@@ -78,11 +82,11 @@
   <p>Dans ce premier tome, nous suivons la vie de Katniss Everdeen. C’est une jeune adolescente au caractère rebelle. Au sein d’une nation du nom de “Panem”, le Capitole gouverne le peuple. Panem est née de la ﬁn de l’Amérique du Nord. Ce peuple est divisé en douze districts, autrefois treize, ayant chacun sa spécialité.</p>
   
 
-  <figure 
+  <figure class="visonneuse"
   x-on:mouseover="monterLegende();" 
 	x-on:mouseleave="descendreLegende();">
   <img src="public/img/carte-panem.jpg" alt="Carte des Districts">
-  <figcaption class="texte13"><em>Carte des Districts</em></figcaption>
+  <figcaption class="legende"><em>Carte des Districts</em></figcaption>
 </figure>
 
 <p>Ces districts partagent donc la population. Les personnes les plus riches sont dans le District 1. Le District 12 rassemble les personnes les plus pauvres et démunies. Katniss et sa famille en font parti. 
